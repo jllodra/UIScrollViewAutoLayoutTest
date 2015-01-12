@@ -13,6 +13,7 @@
 		724EDF861A62D0A90083B39E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724EDF851A62D0A90083B39E /* Images.xcassets */; };
 		724EDF891A62D0A90083B39E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724EDF871A62D0A90083B39E /* LaunchScreen.xib */; };
 		724EDF951A62D0AA0083B39E /* UIScrollViewAutoLayoutTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EDF941A62D0AA0083B39E /* UIScrollViewAutoLayoutTestTests.swift */; };
+		72E598221A6441E20049E5AA /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72E598211A6441E20049E5AA /* photo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		724EDF8E1A62D0AA0083B39E /* UIScrollViewAutoLayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewAutoLayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		724EDF931A62D0AA0083B39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		724EDF941A62D0AA0083B39E /* UIScrollViewAutoLayoutTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewAutoLayoutTestTests.swift; sourceTree = "<group>"; };
+		72E598211A6441E20049E5AA /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		724EDF7B1A62D0A90083B39E /* UIScrollViewAutoLayoutTest */ = {
 			isa = PBXGroup;
 			children = (
+				72E598211A6441E20049E5AA /* photo.jpg */,
 				724EDF7E1A62D0A90083B39E /* AppDelegate.swift */,
 				724EDF801A62D0A90083B39E /* ViewController.swift */,
 				724EDF821A62D0A90083B39E /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			files = (
 				724EDF841A62D0A90083B39E /* Main.storyboard in Resources */,
 				724EDF891A62D0A90083B39E /* LaunchScreen.xib in Resources */,
+				72E598221A6441E20049E5AA /* photo.jpg in Resources */,
 				724EDF861A62D0A90083B39E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				724EDF9A1A62D0AA0083B39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		724EDF9B1A62D0AA0083B39E /* Build configuration list for PBXNativeTarget "UIScrollViewAutoLayoutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				724EDF9D1A62D0AA0083B39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

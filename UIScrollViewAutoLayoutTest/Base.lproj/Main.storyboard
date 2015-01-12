@@ -1,88 +1,142 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G5d-vZ-swy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="wlE-fd-d4n">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIScrollViewAutoLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G5d-vZ-swy" customClass="ViewController" customModule="UIScrollViewAutoLayoutTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="q5d-94-sCx"/>
+                        <viewControllerLayoutGuide type="bottom" id="15G-BY-MjV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                    <view key="view" contentMode="scaleToFill" id="PtJ-wk-YGR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijV-Hd-eET">
-                                <rect key="frame" x="0.0" y="20" width="600" height="880"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNM-Ov-voX">
+                                <rect key="frame" x="0.0" y="20" width="600" height="980"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M15-0X-irn">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igX-IA-kGw">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="980"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJn-c2-XYf">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="221"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beach name in Mallorca" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xp-Dn-Mae">
+                                                <rect key="frame" x="8" y="283" width="185" height="21"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="221" id="AM4-jj-ePq"/>
-                                                </constraints>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mS-s2-f6t">
-                                                <rect key="frame" x="8" y="229" width="42" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="RgD-Cx-ool"/>
+                                                    <constraint firstAttribute="height" constant="21" id="KTd-JN-wST"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input..." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mw2-zh-Azx">
-                                                <rect key="frame" x="8" y="838" width="67" height="30"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SE3-dH-c4L">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="275"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="SE3-dH-c4L" secondAttribute="height" multiplier="24:11" id="ti2-t6-GEj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pew-Sy-det">
+                                                <rect key="frame" x="0.0" y="312" width="600" height="401"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="401" id="5vT-N4-Stz"/>
+                                                    <constraint firstAttribute="height" constant="401" id="HXo-Gj-xM2"/>
+                                                </constraints>
+                                                <mutableString key="text">Cala Barca is a small but pretty bay on the edge of Mondrago Park in the south east of Mallorca. It's 35 metres long by 25 metres deep and has golden sand. 
+
+Unlike some of the bays in the area, it has been developed for tourists and the Iberostar Club Cala Barca sits in the trees just behind the beach. The hotel means that the beach is not as quiet as neighbouring Cala d'en Borgit but it does have a beach club and a SCUBA and snorkelling centre.
+
+The beach itself is small and can become crowded in peak season but it its much prettier than some of the beaches further up the coast in Cala d'Or as it is surrounded by pine and oak trees. The The bay is long and thin so the water is sheltered and calm and popular with divers and snorkelers. The beach club in the shaded area behind the beach serves food and drinks. You'll also find showers and toilets on the beach, but there is no lifeguard service.
+
+You can walk to this beach if you are staying in Portopetro (about one kilometre) otherwise it's best to drive - you can follow signs from Porto Petro or s'Alqueria Blanca. Free parking is available at the beach. Walking trails exist along the coastline, leading south  to Mondrago Park and to Punta des Savinar, towards Cala Figuera.
+
+The closest resorts are Portopetro and Cala D'Or.
+
+Good for: Diving, Snorkelling and Families</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="5vT-N4-Stz"/>
+                                                    </mask>
+                                                </variation>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyO-en-UmK">
+                                                <rect key="frame" x="8" y="721" width="584" height="56"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">You can walk to this beach if you are staying in Portopetro (about one kilometre) otherwise it's best to drive - you can follow signs from Porto Petro or s'Alqueria Blanca. Free parking is available at the beach. Walking trails exist along the coastline, leading south  to Mondrago Park and to Punta des Savinar, towards Cala Figuera.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input..." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jzz-4k-QV7">
+                                                <rect key="frame" x="8" y="785" width="67" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.40233299452492832" green="0.56860536233751502" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.40233299449999999" green="0.56860536230000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="900" id="9Dh-3B-zyH"/>
-                                            <constraint firstItem="mw2-zh-Azx" firstAttribute="top" secondItem="M15-0X-irn" secondAttribute="top" constant="838" id="9f4-2G-uOg"/>
-                                            <constraint firstItem="sJn-c2-XYf" firstAttribute="leading" secondItem="9mS-s2-f6t" secondAttribute="leading" constant="-8" id="GhR-gZ-2uk"/>
-                                            <constraint firstItem="9mS-s2-f6t" firstAttribute="top" secondItem="sJn-c2-XYf" secondAttribute="bottom" constant="8" id="Hvl-ni-9Cb"/>
-                                            <constraint firstItem="sJn-c2-XYf" firstAttribute="leading" secondItem="M15-0X-irn" secondAttribute="leading" id="Iid-0x-TPC"/>
-                                            <constraint firstItem="mw2-zh-Azx" firstAttribute="leading" secondItem="M15-0X-irn" secondAttribute="leading" constant="8" id="SGb-NM-RZH"/>
-                                            <constraint firstItem="sJn-c2-XYf" firstAttribute="width" secondItem="M15-0X-irn" secondAttribute="width" id="uRs-da-mPB"/>
-                                            <constraint firstItem="sJn-c2-XYf" firstAttribute="top" secondItem="M15-0X-irn" secondAttribute="top" id="yTv-WW-Rxl"/>
+                                            <constraint firstItem="oyO-en-UmK" firstAttribute="top" secondItem="Pew-Sy-det" secondAttribute="bottom" constant="8" id="1Jt-Sx-NMd"/>
+                                            <constraint firstItem="Jzz-4k-QV7" firstAttribute="top" secondItem="oyO-en-UmK" secondAttribute="bottom" constant="8" id="1RS-FT-TOZ"/>
+                                            <constraint firstItem="Pew-Sy-det" firstAttribute="width" secondItem="igX-IA-kGw" secondAttribute="width" id="1fb-VI-X2E"/>
+                                            <constraint firstItem="SE3-dH-c4L" firstAttribute="leading" secondItem="igX-IA-kGw" secondAttribute="leading" id="AU2-S9-c1j"/>
+                                            <constraint firstItem="1Xp-Dn-Mae" firstAttribute="top" secondItem="SE3-dH-c4L" secondAttribute="bottom" constant="8" id="De2-1h-nbe"/>
+                                            <constraint firstItem="Pew-Sy-det" firstAttribute="top" secondItem="1Xp-Dn-Mae" secondAttribute="bottom" constant="8" id="Dxn-Rb-i6l"/>
+                                            <constraint firstItem="Pew-Sy-det" firstAttribute="leading" secondItem="1Xp-Dn-Mae" secondAttribute="leading" constant="-8" id="K68-eC-fmC"/>
+                                            <constraint firstAttribute="height" constant="980" id="Rdz-OM-73T"/>
+                                            <constraint firstAttribute="width" secondItem="SE3-dH-c4L" secondAttribute="width" id="TaQ-wo-sZ7"/>
+                                            <constraint firstItem="oyO-en-UmK" firstAttribute="leading" secondItem="igX-IA-kGw" secondAttribute="leading" constant="8" id="Yh6-wd-A6p"/>
+                                            <constraint firstItem="Pew-Sy-det" firstAttribute="leading" secondItem="igX-IA-kGw" secondAttribute="leading" id="gn6-7d-tdd"/>
+                                            <constraint firstItem="Jzz-4k-QV7" firstAttribute="top" secondItem="oyO-en-UmK" secondAttribute="bottom" id="mUY-sq-hN4"/>
+                                            <constraint firstAttribute="trailing" secondItem="oyO-en-UmK" secondAttribute="trailing" constant="8" id="nNc-nI-mSG"/>
+                                            <constraint firstItem="SE3-dH-c4L" firstAttribute="top" secondItem="igX-IA-kGw" secondAttribute="top" id="w45-ln-XP1"/>
+                                            <constraint firstItem="Jzz-4k-QV7" firstAttribute="leading" secondItem="igX-IA-kGw" secondAttribute="leading" constant="8" id="x5s-PQ-yUr"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="mUY-sq-hN4"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.4156863093" green="0.61960786580000005" blue="0.71764707569999997" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstItem="M15-0X-irn" firstAttribute="width" secondItem="ijV-Hd-eET" secondAttribute="width" id="2KP-oc-LIa"/>
-                                    <constraint firstAttribute="trailing" secondItem="M15-0X-irn" secondAttribute="trailing" id="H82-dO-maB"/>
-                                    <constraint firstAttribute="centerX" secondItem="M15-0X-irn" secondAttribute="centerX" id="HFL-yl-iwQ"/>
-                                    <constraint firstItem="M15-0X-irn" firstAttribute="top" secondItem="ijV-Hd-eET" secondAttribute="top" id="hit-y7-wjH"/>
-                                    <constraint firstAttribute="bottom" secondItem="M15-0X-irn" secondAttribute="bottom" constant="-20" id="uae-ok-0Z3"/>
+                                    <constraint firstItem="igX-IA-kGw" firstAttribute="width" secondItem="LNM-Ov-voX" secondAttribute="width" id="BMD-Cy-uYq"/>
+                                    <constraint firstAttribute="trailing" secondItem="igX-IA-kGw" secondAttribute="trailing" id="WEF-St-kwL"/>
+                                    <constraint firstAttribute="centerX" secondItem="igX-IA-kGw" secondAttribute="centerX" id="guJ-Cg-G0l"/>
+                                    <constraint firstAttribute="bottom" secondItem="igX-IA-kGw" secondAttribute="bottom" id="l3K-hV-NTB"/>
+                                    <constraint firstItem="igX-IA-kGw" firstAttribute="leading" secondItem="LNM-Ov-voX" secondAttribute="leading" id="u4g-8L-A9o"/>
+                                    <constraint firstItem="igX-IA-kGw" firstAttribute="top" secondItem="LNM-Ov-voX" secondAttribute="top" id="woR-10-HUa"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ijV-Hd-eET" secondAttribute="trailing" id="364-gB-gor"/>
-                            <constraint firstItem="ijV-Hd-eET" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ase-FC-1oz"/>
-                            <constraint firstItem="ijV-Hd-eET" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cR5-gE-PIK"/>
-                            <constraint firstItem="ijV-Hd-eET" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pvW-vN-V5w"/>
+                            <constraint firstItem="LNM-Ov-voX" firstAttribute="leading" secondItem="PtJ-wk-YGR" secondAttribute="leading" id="5WS-gk-BA6"/>
+                            <constraint firstAttribute="trailing" secondItem="LNM-Ov-voX" secondAttribute="trailing" id="CyI-3B-EGC"/>
+                            <constraint firstItem="LNM-Ov-voX" firstAttribute="bottom" secondItem="15G-BY-MjV" secondAttribute="top" id="Wc8-Wc-Enf"/>
+                            <constraint firstItem="LNM-Ov-voX" firstAttribute="top" secondItem="q5d-94-sCx" secondAttribute="bottom" id="wph-2e-U1o"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="900"/>
+                    <size key="freeformSize" width="600" height="1000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMo-1f-MSF" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="720" y="1644"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="photo.jpg" width="600" height="450"/>
+    </resources>
 </document>
